@@ -1,0 +1,26 @@
+{
+  "name": "http-status-codes",
+  "version": "0.1.0",
+  "description": "A simple reference directory of HTTP Status Codes",
+  "main": "build.js",
+  "scripts": {
+    "prepare": "cd docs && bundle install",
+    "start": "cd docs && bundle exec jekyll serve",
+    "serve": "npm run start # alias for start",
+    "test": "npm run lint",
+    "lint": "npx markdownlint README.md docs/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+davidbiesack.github.io/http-status-codes.git"
+  },
+  "author": "David Biesack <DavidBiesack@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidBiesack/http-status-codes/issues"
+  },
+  "homepage": "https://github.com/DavidBiesack/http-status-codes#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.31.1"
+  }
+}

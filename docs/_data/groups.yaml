@@ -1,0 +1,18 @@
+titles:
+  '1': Informational
+  '2': Success
+  '3': Redirection
+  '4': Client Error
+  '5': Server Error
+colors:
+  '1': '#000000'
+  '2': '#44bb66'
+  '3': '#2266ff'
+  '4': '#ff4444'
+  '5': '#cc4422'
+descriptions:
+  '1': Request received, continuing process
+  '2': The action was successfully received, understood, and accepted
+  '3': Further action must be taken in order to complete the request
+  '4': The request contains bad syntax or cannot be fulfilled
+  '5': The server failed to fulfill an apparently valid request
