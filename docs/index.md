@@ -15,6 +15,4 @@ place. Visit an individual status code via
 
 <br>
 
-Including code.markdown....
-
 {% include code.markdown %}
