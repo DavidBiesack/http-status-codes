@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+  {%- assign group = page.set | append: "" -%}
+  {%- assign color = site.data.groups.colors[group] | prepend: " color: "  | append: ";" -%}
   {%- include head.html -%}
 
   <body>
 
-    {%- include default-header.html -%}
+    {%- include code-header.html -%}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h2>{{ page.code }}: {{page.title}}</h2>
+        {% assign groupNum = page.set %}
+        {% assign group = groupNum | append: "" %}
+        <h2><span style='color: {{ site.data.groups.colors[group] }}; font-weight: bold;' title="{{ site.data.groups.descriptions[group] }}"><tt>{{ group }}&times;&times;</tt></span> - <span title="{{ site.data.groups.descriptions[group] }}">{{ site.data.groups.titles[group] }}</span></h2>
+        <h2><span style='{{color}};'> <tt>{{ page.code }}</tt></span> {{page.title}}</h2>
+
 
         {{ content }}
 
-        <h2>Reference</h2>
+        <h2><span style='{{color}};'> <tt>{{page.code}}</tt> </span> Code References</h2>
 
         <ul>
         {% for ref in page.references %}
