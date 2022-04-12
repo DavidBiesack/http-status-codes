@@ -1,6 +1,6 @@
 # [davidbiesack.github.io/http-status-codes](https://davidbiesack.github.io/http-status-codes)
 
-[davidbiesack.github.io/http-status-codes][https://davidbiesack.github.io/http-status-codes]
+[davidbiesack.github.io/http-status-codes](https://davidbiesack.github.io/http-status-codes)
 is a simple reference database of HTTP
 Status Codes with their definitions and helpful code references, each
 code is at `https://davidbiesack.github.io/http-status-codes/<code>` such as
