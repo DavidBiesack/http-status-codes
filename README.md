@@ -16,7 +16,7 @@ This GitHub Pages site is built with Jekyll and Ruby.
 
 All contributions are welcome! If you have an idea to improve the
 website please submit a pull request or
-[create an issue][https://github.com/DavidBiesack/http-status-codes/issues],
+[create an issue](https://github.com/DavidBiesack/http-status-codes/issues),
 or provide your thoughts on open issues.
 
 Each status code lives in a Markdown file at [docs](docs). The easiest
