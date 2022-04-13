@@ -10,15 +10,15 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {% assign groupNum = page.set %}
-        {% assign group = groupNum | append: "" %}
-        <h2><span style='color: {{ site.data.groups.colors[group] }}; font-weight: bold;' title="{{ site.data.groups.descriptions[group] }}"><tt>{{ group }}&times;&times;</tt></span> - <span title="{{ site.data.groups.descriptions[group] }}">{{ site.data.groups.titles[group] }}</span></h2>
-        <h2><span style='{{color}};'> <tt>{{ page.code }}</tt></span> {{page.title}}</h2>
+        {% assign group = page.set | append: "" %}
+        <h2><span class="group group{{group}}">{{ group }}&times;&times;</span> - 
+            <span title="{{ site.data.groups.descriptions[group] }}">{{ site.data.groups.titles[group] }}</span></h2>
+        <h2><span class="status-code group{{group}}">{{ page.code }}</span> {{page.title}}</h2>
 
 
         {{ content }}
 
-        <h2><span style='{{color}};'> <tt>{{page.code}}</tt> </span> Code References</h2>
+        <h2><span class="status-code group{{group}}">{{page.code}}</span> Code References</h2>
 
         <ul>
         {% for ref in page.references %}
