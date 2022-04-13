@@ -3,7 +3,7 @@
 [davidbiesack.github.io/http-status-codes](https://davidbiesack.github.io/http-status-codes)
 is a simple reference database of HTTP
 Status Codes with their definitions and helpful code references, each
-code is at `https://davidbiesack.github.io/http-status-codes/<code>` such as
+code is at `https://davidbiesack.github.io/http-status-codes/{code}` such as
 [`https://davidbiesack.github.io/http-status-codes/418`](https://davidbiesack.github.io/http-status-codes/418).
 All standard codes are included, as
 are some non-standard codes that have significant presence in the wild.

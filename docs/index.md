@@ -9,8 +9,8 @@ layout: page
 [{{ site.home }}]({{ site.home }}) is a simple reference database of
 [HTTP Status Codes](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml)
 with their definitions and helpful code references all in one
-place. Visit an individual status code via
-`{{ site.home}}/<code>` such as
+place. Visit an individual HTTP status code `{code}` via
+`{{ site.home}}/{code}` such as
 [`{{ site.home }}/418`](./418), or simply browse the list below.
 
 <br>
