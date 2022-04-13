@@ -59,6 +59,10 @@ npm i
 npm run start
 ```
 
+## Chrome Search Engine
+
+See [Tip: Chrome Search Engine Shortcut](docs/search.md).
+
 ## httpstatus.com
 
 Previously, the project was known as `httpstatus.com`, but that site was
