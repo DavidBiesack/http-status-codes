@@ -1,0 +1,29 @@
+.status-code, .status-code:link {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.group, .group:link {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.group1, .group1:link, .group1:visited {
+  color: #000;
+}
+
+.group2, .group2:link, .group2:visited {
+    color: #006e1f
+}
+
+.group3, .group3:link, .group3:visited{
+  color: #012988f1
+}
+
+.group4, .group4:link, .group4:visited {
+  color: #ff4444
+}
+
+.group5, .group5:link, .group5:visited{
+  color: #b44e09
+}
