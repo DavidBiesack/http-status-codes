@@ -61,7 +61,7 @@ npm run start
 
 ## Chrome Search Engine
 
-See [Tip: Chrome Search Engine Shortcut](docs/search.md).
+See [Tip: Chrome Search Engine Shortcut](https://davidbiesack.github.io/http-status-codes/search).
 
 ## httpstatus.com
 
