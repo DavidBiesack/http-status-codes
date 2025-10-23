@@ -65,7 +65,10 @@ See [Tip: Chrome Search Engine Shortcut](https://davidbiesack.github.io/http-sta
 
 ## httpstatus.com
 
-Previously, the project was known as `httpstatus.com`, but that site was
+Previously, the project was known as `httpstatuses.com`, but that site was
 bought by a marketing firm and changed to promote their firm.
 See the original GitHub project, [rmaake1/httpstatuses](https://github.com/rmaake1/httpstatuses) where
 the main HTTP status codes doc and metadata in this repo originated.
+
+In October, I learned that someone has published a new site, [httpstatuses.io](http://httpstatuses.com)
+(on GitHub at [https://github.com/httpstatuses/httpstatuses](https://github.com/httpstatuses/httpstatuses))
